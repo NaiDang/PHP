@@ -8,31 +8,31 @@
 </head>
 <body>
     <?php
-        $number = 7;
-        switch ($number)
+        $Mong = "Mong7";
+        switch ($Mong)
         {
-            case 0 :
+            case "Dem30" :
                 echo 'Giao thừa';
                 break;
-            case 1:
+            case "Mong1":
                 echo 'Tết Nội';
                 break;
-            case 2:
+            case "Mong2":
                 echo 'Tết Ngoại';
                 break;
-            case 3:
+            case "Mong3":
                 echo 'Tết Thầy';
                 break;
-            case 4 :
+            case "Mong4" :
                 echo 'Tết bồ';
                 break;
-            case 5 :
+            case "Mong5" :
                 echo 'Ngủ';
                 break;
-            case 6 :
+            case "Mong6" :
                 echo 'Lên xe';
                 break;
-            case 7 :
+            case "Mong7" :
                 echo 'I am learning at PNV';
                 break;
             default:
